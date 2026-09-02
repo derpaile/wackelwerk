@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "title": "Import-Test",
+    "description": "Ein geprüftes Beispielprojekt."
+  },
+  "viewport": {
+    "width": 960,
+    "height": 540,
+    "background": "#f7f1e8"
+  },
+  "physics": {
+    "gravityX": 0,
+    "gravityY": 1
+  },
+  "character": {
+    "x": 480,
+    "y": 190,
+    "scale": 1,
+    "sweater": "#e76f51",
+    "trousers": "#355070",
+    "shoes": "#25283d",
+    "fabric": "#d6b47c"
+  },
+  "entities": [
+    {
+      "id": "boden",
+      "type": "platform",
+      "x": 480,
+      "y": 510,
+      "width": 820,
+      "height": 26,
+      "angle": 0,
+      "color": "#335c67",
+      "label": "Weicher Boden"
+    }
+  ],
+  "rules": {
+    "timeLimit": 0,
+    "scoreEnabled": true,
+    "objectives": []
+  },
+  "theme": {
+    "accent": "#e76f51",
+    "secondary": "#2a9d8f"
+  }
+}
